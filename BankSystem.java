@@ -139,7 +139,7 @@ public class BankSystem {
     sa.liquidDate();
     System.out.println("Updated Balance: "+sa.getBalance());
     sa.close();
-    System.out.println("Updated Balance: "+sa.getBalance());
+    
     System.out.println();
 
     LoanAccount la = new LoanAccount("102", "Rahul Singh", "Delhi", "7894561230", "01-01-2000", 2000);
