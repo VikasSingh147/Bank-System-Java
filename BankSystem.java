@@ -128,7 +128,7 @@ class LoanAccount extends Account {
 
 public class BankSystem {
   public static void main(String[] args) {
-    SavingsAccount sa = new SavingsAccount("101", "Vikas Singh", "Boisar", "7666014633", "17-09-2002", 2000.00);
+    SavingsAccount sa = new SavingsAccount("101", "Vikas Singh", "Mumbai", "8544785540", "16-05-2002", 2000.00);
 
     System.out.println("Details is:"+sa);
     System.out.println();
@@ -142,7 +142,7 @@ public class BankSystem {
     System.out.println("Updated Balance: "+sa.getBalance());
     System.out.println();
 
-    LoanAccount la = new LoanAccount("102", "Rahul Singh", "Dehradun", "7894561230", "08-01-2000", 2000);
+    LoanAccount la = new LoanAccount("102", "Rahul Singh", "Delhi", "7894561230", "01-01-2000", 2000);
 
     System.out.println("Account Details : "+la);
     System.out.println();
